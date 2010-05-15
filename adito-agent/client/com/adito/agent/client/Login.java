@@ -35,12 +35,12 @@ public class Login extends javax.swing.JFrame {
     private void initComponents() {
 
         tUsername = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        jLUsername = new javax.swing.JLabel();
+        jLPassword = new javax.swing.JLabel();
         tServerIP = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
+        jLServerIp = new javax.swing.JLabel();
         tPassword = new javax.swing.JPasswordField();
-        jLabel4 = new javax.swing.JLabel();
+        jLPort = new javax.swing.JLabel();
         tServerPort = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         bLogin = new javax.swing.JButton();
@@ -53,23 +53,23 @@ public class Login extends javax.swing.JFrame {
         tUsername.setText(("admin")); // NOI18N
         tUsername.setName("tUsername"); // NOI18N
 
-        jLabel1.setText(Messages.getString("jLabel1.text")); // NOI18N
-        jLabel1.setName("jLabel1"); // NOI18N
+        jLUsername.setText(Messages.getString("Login.jLUsername.text")); // NOI18N
+        jLUsername.setName("jLUsername"); // NOI18N
 
-        jLabel2.setText(Messages.getString("jLabel2.text")); // NOI18N
-        jLabel2.setName("jLabel2"); // NOI18N
+        jLPassword.setText(Messages.getString("Login.jLPassword.text")); // NOI18N
+        jLPassword.setName("jLPassword"); // NOI18N
 
         tServerIP.setText(("127.0.0.1")); // NOI18N
         tServerIP.setName("tServerIP"); // NOI18N
 
-        jLabel3.setText(Messages.getString("jLabel3.text")); // NOI18N
-        jLabel3.setName("jLabel3"); // NOI18N
+        jLServerIp.setText(Messages.getString("Login.jLServerIp.text")); // NOI18N
+        jLServerIp.setName("jLServerIp"); // NOI18N
 
         tPassword.setText(("111111")); // NOI18N
         tPassword.setName("tPassword"); // NOI18N
 
-        jLabel4.setText(Messages.getString("jLabel4.text")); // NOI18N
-        jLabel4.setName("jLabel4"); // NOI18N
+        jLPort.setText(Messages.getString("Login.jLPort.text")); // NOI18N
+        jLPort.setName("jLPort"); // NOI18N
 
         tServerPort.setText(("8080")); // NOI18N
         tServerPort.setName("tServerPort"); // NOI18N
@@ -115,10 +115,10 @@ public class Login extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel3))
+                    .addComponent(jLPort)
+                    .addComponent(jLPassword)
+                    .addComponent(jLUsername)
+                    .addComponent(jLServerIp))
                 .addGap(0, 0, 0)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -147,19 +147,19 @@ public class Login extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1))
+                    .addComponent(jLUsername))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
+                    .addComponent(jLPassword)
                     .addComponent(tPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tServerIP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                    .addComponent(jLServerIp))
                 .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel4)
+                        .addComponent(jLPort)
                         .addComponent(protocolSpinner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(tServerPort, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(19, 19, 19)
@@ -275,10 +275,10 @@ public class Login extends javax.swing.JFrame {
     // Variables declaration - do not modify                     
     private javax.swing.JButton bExit;
     private javax.swing.JButton bLogin;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLUsername;
+    private javax.swing.JLabel jLPassword;
+    private javax.swing.JLabel jLServerIp;
+    private javax.swing.JLabel jLPort;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPasswordField tPassword;
     private javax.swing.JTextField tServerIP;
