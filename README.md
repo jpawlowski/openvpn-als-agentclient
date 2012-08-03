@@ -1,1 +1,1 @@
-Adito is an open-source, browser-based SSL VPN solution. Base on Agent code, i add a swing wrapper to it and run it as a standalone client. more detail here: http://zhoupengylx.blogspot.com/2010/03/adito-standalone-agent-client.html
+OpenVPN ALS / Adito is an open-source, browser-based SSL VPN solution. Based on Agent code, yellowstonemay added a swing wrapper to it and run it as a standalone client. More detail here: http://zhoupengylx.blogspot.com/2010/03/adito-standalone-agent-client.html
